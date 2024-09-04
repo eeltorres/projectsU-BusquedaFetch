@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Seminario</title>
+</head>
+
+<body>
+    <!-- SIMULACION DE UNA API PARA FILTROS DE DATOS DE UN SEMINARIO -->
+
+    <h1 id="h1" class="titulo">Seminario</h1>
+    <hr>
+
+    <!-- COMBO-BOX PRINCIPAL -->
+    <h3>Seleccione una conferencia</h3>
+    <div id="div_cboxPrincipal">
+        <label for="select_Main">Filtrar por:</label>
+        <select name="select_Main" id="select_Main" autofocus required>
+            <option value=""></option>
+            <option value="Dia">Dia</option>
+            <option value="Tema">Tema</option>
+            <option value="Presentador">Presentador</option>
+        </select>
+    </div>
+
+    <!-- COMBO-BOX DIA -->
+    <div id="div_cboxData" style="display: none;">
+        <label for="select_user">Seleccione una:</label>
+        <!-- COMBO-BOX DIA -->
+        <select name="select_user" id="select_dia" style="display: none;" class="select_user">
+            <option value=""></option>
+            <option value="Lunes">Lunes</option>
+            <option value="Martes">Martes</option>
+            <option value="Miercoles">Miercoles</option>
+            <option value="Jueves">Jueves</option>
+            <option value="Viernes">Viernes</option>
+            <option value="Sabado">Sabado</option>
+            <option value="Domingo">Domingo</option>
+        </select>
+
+        <!-- COMBO-BOX TEMA -->
+        <select name="select_user" id="select_tema" style="display: none;" class="select_user">
+            <option value=""></option>
+        </select>
+
+        <!-- COMBO-PRESENTADOR -->
+        <select name="select_user" id="select_presentador" style="display: none;" class="select_user">
+            <option value=""></option>
+        </select>
+
+        <button id="btn_cosultar" class="btn" disabled>CONSULTAR</button>
+    </div>
+
+    <!-- MENSAJE QUA MANEJARA EL ERROR -->
+    <p id="p_error" style="color: red; font-size: 20px;"></p>
+
+    <div id="div_resul" style="display: none;" class="div-resul">
+
+        <!-- TABLA DE RESULTADO -->
+        <table class="table" id="table">
+            <thead>
+                <tr>
+                    <td>Dia</td>
+                    <td>Tema</td>
+                    <td>Presentador</td>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>

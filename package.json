@@ -1,0 +1,15 @@
+{
+  "name": "simulacion api",
+  "version": "1.0.0",
+  "description": "Consulta de datos a un JSON",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "Eduardo Lemus",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^29.0.1"
+  }
+}

@@ -1,0 +1,49 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aliceblue;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table thead{
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    width: auto;
+}
+
+table,th, td {
+    border: 1px solid black;
+    padding: 8px;
+    background-color: rgb(210, 248, 169);
+}
+
+.titulo {
+    text-align: center;
+}
+
+#select_Main {
+    height: 25px;
+    width: 100px;
+}
+
+.select_user {
+    width: auto;
+    height: 25px;
+    border-radius: 3px;
+}
+
+
+
+.btn {
+    background-color: rgb(132, 243, 99);
+    height: 50px;
+    width: 150px;
+    border: solid;
+    border-radius: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    margin: 10px;
+}

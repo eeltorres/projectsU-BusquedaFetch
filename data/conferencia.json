@@ -1,0 +1,78 @@
+[
+    {
+      "dia": "Lunes",
+      "tema": "Introducción a JavaScript",
+      "presentador": "Juan Pérez"
+    },
+    {
+      "dia": "Martes",
+      "tema": "Desarrollo web con HTML y CSS",
+      "presentador": "María García"
+    },
+    {
+      "dia": "Miercoles",
+      "tema": "Programación orientada a objetos en Java",
+      "presentador": "Carlos López"
+    },
+    {
+      "dia": "Jueves",
+      "tema": "Introducción a Python",
+      "presentador": "Ana Martínez"
+    },
+    {
+      "dia": "Viernes",
+      "tema": "Base de datos con MySQL",
+      "presentador": "Pedro Rodríguez"
+    },
+    {
+      "dia": "Lunes",
+      "tema": "Machine Learning y Data Science",
+      "presentador": "Sofía Ramírez"
+    },
+    {
+      "dia": "Martes",
+      "tema": "Desarrollo de aplicaciones multiplataforma con Flutter",
+      "presentador": "Alejandro Fernández"
+    },
+    {
+      "dia": "Miercoles",
+      "tema": "Introducción a la inteligencia artificial",
+      "presentador": "Elena Ruiz"
+    },
+    {
+      "dia": "Jueves",
+      "tema": "Fundamentos de HTML",
+      "presentador": "Diego Hernández"
+    },
+    {
+      "dia": "Viernes",
+      "tema": "Desarrollo backend con Node.js",
+      "presentador": "Marcela López"
+    },
+    {
+      "dia": "Lunes",
+      "tema": "Introducción al desarrollo de videojuegos",
+      "presentador": "Gabriel Pérez"
+    },
+    {
+      "dia": "Martes",
+      "tema": "Desarrollo frontend con Vue.js",
+      "presentador": "Fernanda Martínez"
+    },
+    {
+      "dia": "Miercoles",
+      "tema": "Ciberseguridad y hacking ético",
+      "presentador": "Jorge Ramírez"
+    },
+    {
+      "dia": "Jueves",
+      "tema": "Big Data y análisis de datos",
+      "presentador": "Valentina Gutiérrez"
+    },
+    {
+      "dia": "Viernes",
+      "tema": "Desarrollo de aplicaciones móviles nativas con Swift",
+      "presentador": "Gustavo Fernández"
+    }
+  ]
+  
